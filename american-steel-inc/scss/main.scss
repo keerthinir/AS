@@ -1,0 +1,38 @@
+@import "b/bootstrap" ;
+@import "font";
+@import "common";
+@import "navbar";
+@import "variable";
+@import "button";
+@import "dealer";
+@import "footer";
+@import "product";
+@import "product_detail";
+@import "find_dealer";
+@import "contact";
+@import "whats_new";
+@import "feature";
+@import "responsive";
+
+
+
+
+
+
+html {
+	position: relative;
+  height: 100%;
+}
+body {
+  font-family: 'montserratregular';
+  color: $text-default;
+  min-height: 100%;
+	position: relative;
+	padding-bottom: 348px;
+}
+
+
+.footer-conatiner {
+	background-color: #181E21;
+}
+

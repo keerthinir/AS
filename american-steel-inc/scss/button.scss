@@ -1,0 +1,18 @@
+@import "variable";
+
+.btn-danger {
+	background-color: $text-danger;
+	border-color: $text-danger;
+  font-family: 'montserratregular';
+	color: #fff;
+}
+
+.btn-grey {
+	background-color: $btn-grey;
+	border-color: $btn-grey;
+	color: #fff;
+}
+
+.text-danger {
+	color: $text-danger !important;
+}

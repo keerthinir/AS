@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "american-steel-inc",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
