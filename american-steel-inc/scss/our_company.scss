@@ -12,6 +12,23 @@
 	}
 	.testimonial-writer {
 		font-size: 24px;
-    font-family: 'montserratmedium';
+		font-family: 'montserratmedium';
+	}
+}
+
+// customer service
+.customer-service {
+	.img-holder {
+		width: 64px;
+		height: 44px;
+		margin-right: 20px;
+	}
+	.customer-service-modal a{
+		color: $nav-link;
+		cursor: pointer;
+	}
+
+	.form-control-state {
+		width: 360px;
 	}
 }

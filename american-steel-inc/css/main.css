@@ -7235,6 +7235,16 @@ select {
   font-size: 24px;
   font-family: 'montserratmedium'; }
 
+.customer-service .img-holder {
+  width: 64px;
+  height: 44px;
+  margin-right: 20px; }
+.customer-service .customer-service-modal a {
+  color: #455860;
+  cursor: pointer; }
+.customer-service .form-control-state {
+  width: 360px; }
+
 @media (min-width: 768px) {
   .custom-primary-header .navbar-nav .nav-link {
     padding: 5px 15px; }
