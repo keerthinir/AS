@@ -1,0 +1,17 @@
+@import "variable";
+
+.our-company {
+	.company-people-count {
+		font-size: 40px;
+		font-family: 'montserratsemibold';
+		margin: 25px 0;
+	}
+	.media-description {
+		color: $nav-link;
+		font-size: 14px;
+	}
+	.testimonial-writer {
+		font-size: 24px;
+    font-family: 'montserratmedium';
+	}
+}

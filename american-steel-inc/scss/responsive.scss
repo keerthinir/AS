@@ -91,6 +91,9 @@
 	.find-dealer-banner {
 		height: 600px;
 	}
+	.our-company .testimonials {
+		width: 900px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -103,6 +106,9 @@
 		ul:first-child, ul:last-child {
 			display: none;
 		}
+	}
+	.our-company .banner-img img{
+		width: 100%;
 	}
 }
 @media (max-width: 767px) {

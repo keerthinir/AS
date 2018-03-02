@@ -6717,6 +6717,9 @@ a:hover {
 .bg-grey {
   background-color: #F8F9F9; }
 
+.bg-danger {
+  background-color: #9D0303 !important; }
+
 select {
   appearance: none;
   -moz-appearance: none;
@@ -7221,6 +7224,17 @@ select {
 @media (min-width: 1400px) {
   .card-tile-wrapper .card-tile-content {
     min-height: 360px; } }
+.our-company .company-people-count {
+  font-size: 40px;
+  font-family: 'montserratsemibold';
+  margin: 25px 0; }
+.our-company .media-description {
+  color: #455860;
+  font-size: 14px; }
+.our-company .testimonial-writer {
+  font-size: 24px;
+  font-family: 'montserratmedium'; }
+
 @media (min-width: 768px) {
   .custom-primary-header .navbar-nav .nav-link {
     padding: 5px 15px; }
@@ -7284,7 +7298,10 @@ select {
     margin-left: auto; }
 
   .find-dealer-banner {
-    height: 600px; } }
+    height: 600px; }
+
+  .our-company .testimonials {
+    width: 900px; } }
 @media (max-width: 768px) {
   .dealer-dropdown .dropdown-menu {
     border: 0;
@@ -7292,7 +7309,10 @@ select {
     padding: 0; }
 
   .footer .footer-nav-links ul:first-child, .footer .footer-nav-links ul:last-child {
-    display: none; } }
+    display: none; }
+
+  .our-company .banner-img img {
+    width: 100%; } }
 @media (max-width: 767px) {
   .custom-primary-header {
     background-image: none !important; }

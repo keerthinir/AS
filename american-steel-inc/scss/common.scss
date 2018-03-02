@@ -47,6 +47,9 @@ a:hover {
 .bg-grey {
 	background-color: $grey-background;
 }
+.bg-danger {
+	background-color: $text-danger !important;
+}
 
 select {
 	appearance:none;
