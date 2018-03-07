@@ -47,8 +47,14 @@ a:hover {
 .bg-grey {
 	background-color: $grey-background;
 }
+.bg-light-grey {
+	background-color: $light-grey-background;
+}
 .bg-danger {
 	background-color: $text-danger !important;
+}
+.fb{
+  background-color: #306199;
 }
 
 select {

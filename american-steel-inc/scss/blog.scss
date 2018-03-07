@@ -1,0 +1,32 @@
+@import "variable";
+
+.blog-banner {
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+
+}
+
+.blog-right-panel {
+	.blog-heading {
+		font-size: 20px;
+		font-family: 'montserratmedium';
+		padding: 14px 20px;
+		display: block;
+	}
+	.category {
+		li {
+			padding: 15px;
+			border-bottom: 1px solid $grey-border;
+			.blog-heading {
+				padding: 0;
+			}
+			a{
+				color: $text-default;
+			}
+		}
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+}
