@@ -7293,6 +7293,15 @@ select {
   background-size: cover;
   height: 450px; }
 
+.blog-left-panel .media-body, .blog-left-panel .list-of-needs {
+  color: #455860; }
+
+.recent-post-blog-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60px;
+  width: 60px; }
+
 .blog-right-panel .blog-heading {
   font-size: 20px;
   font-family: 'montserratmedium';
@@ -7305,7 +7314,7 @@ select {
     padding: 0; }
   .blog-right-panel .category li a {
     color: #181E21; }
-.blog-right-panel .category:last-child {
+.blog-right-panel .category li:last-child {
   border-bottom: 0; }
 
 @media (min-width: 768px) {
