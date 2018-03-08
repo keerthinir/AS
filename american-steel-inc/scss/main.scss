@@ -14,6 +14,7 @@
 @import "feature";
 @import "our_company";
 @import "blog";
+@import "home";
 @import "responsive";
 
 
@@ -23,18 +24,48 @@
 
 html {
 	position: relative;
-  height: 100%;
+	height: 100%;
 }
 body {
-  font-family: 'montserratregular';
-  color: $text-default;
-  min-height: 100%;
+	font-family: 'montserratregular';
+	color: $text-default;
+	min-height: 100%;
 	position: relative;
 	padding-bottom: 348px;
 }
 
-
-.footer-conatiner {
-	background-color: #181E21;
+.carousel {
+	.carousel-indicators{
+		margin-bottom: -50px;
+		li {
+			max-width: 8px;
+			height: 8px;
+			background-color: $nav-link;
+			border-radius: 50%;
+			&.active {
+				max-width: 10px;
+				height: 10px;
+				background-color: $text-danger;
+				bottom: 1px;
+			} 
+		}
+	}
+	.carousel-control-prev, .carousel-control-next {
+		opacity: 1;
+		width: 50px;
+		height: 50px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.carousel-control-prev-icon {
+		width: 21px;
+		height: 36px;
+		background-image: url("../images/icons/icon_arrow_left.svg");
+	}
+	.carousel-control-next-icon {
+		width: 21px;
+		height: 36px;
+		background-image: url("../images/icons/icon_arrow_right.svg");
+	}
 }
 

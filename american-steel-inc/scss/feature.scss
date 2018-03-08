@@ -22,21 +22,7 @@
 		margin: 0 auto;
 	}
 	#featureaCarouselIndicators {
-		.carousel-indicators{
-			margin-bottom: -50px;
-			li {
-				max-width: 8px;
-				height: 8px;
-				background-color: $nav-link;
-				border-radius: 50%;
-				&.active {
-					max-width: 10px;
-					height: 10px;
-					background-color: $text-danger;
-					bottom: 1px;
-				} 
-			}
-		}
+		
 
 		.carousel-inner {
 			height: 800px;

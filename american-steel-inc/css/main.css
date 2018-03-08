@@ -6924,20 +6924,6 @@ select {
 .accessories #accessoriesCarouselIndicators .carousel-inner {
   width: 90%;
   margin: 0 auto; }
-.accessories #accessoriesCarouselIndicators .carousel-control-prev, .accessories #accessoriesCarouselIndicators .carousel-control-next {
-  opacity: 1;
-  width: 50px;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%); }
-.accessories #accessoriesCarouselIndicators .carousel-control-prev-icon {
-  width: 21px;
-  height: 36px;
-  background-image: url("../images/icons/icon_arrow_left.svg"); }
-.accessories #accessoriesCarouselIndicators .carousel-control-next-icon {
-  width: 21px;
-  height: 36px;
-  background-image: url("../images/icons/icon_arrow_right.svg"); }
 
 .product-detail .product-detail-img {
   width: 100%; }
@@ -7032,18 +7018,6 @@ select {
   height: 400px;
   width: 50%;
   margin: 0 auto; }
-.features #featureaCarouselIndicators .carousel-indicators {
-  margin-bottom: -50px; }
-  .features #featureaCarouselIndicators .carousel-indicators li {
-    max-width: 8px;
-    height: 8px;
-    background-color: #455860;
-    border-radius: 50%; }
-    .features #featureaCarouselIndicators .carousel-indicators li.active {
-      max-width: 10px;
-      height: 10px;
-      background-color: #9D0303;
-      bottom: 1px; }
 .features #featureaCarouselIndicators .carousel-inner {
   height: 800px;
   margin-bottom: 50px; }
@@ -7420,7 +7394,31 @@ body {
   position: relative;
   padding-bottom: 348px; }
 
-.footer-conatiner {
-  background-color: #181E21; }
+.carousel .carousel-indicators {
+  margin-bottom: -50px; }
+  .carousel .carousel-indicators li {
+    max-width: 8px;
+    height: 8px;
+    background-color: #455860;
+    border-radius: 50%; }
+    .carousel .carousel-indicators li.active {
+      max-width: 10px;
+      height: 10px;
+      background-color: #9D0303;
+      bottom: 1px; }
+.carousel .carousel-control-prev, .carousel .carousel-control-next {
+  opacity: 1;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%); }
+.carousel .carousel-control-prev-icon {
+  width: 21px;
+  height: 36px;
+  background-image: url("../images/icons/icon_arrow_left.svg"); }
+.carousel .carousel-control-next-icon {
+  width: 21px;
+  height: 36px;
+  background-image: url("../images/icons/icon_arrow_right.svg"); }
 
 /*# sourceMappingURL=main.css.map */
