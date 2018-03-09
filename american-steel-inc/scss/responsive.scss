@@ -36,6 +36,13 @@
 		height: 278px;
 		background-size: 100%;
 	}
+	// blog
+	.blog-banner { 
+		height: 300px;
+	}
+	.blog-media .media:nth-child(even)  {
+		margin-left: 70px;
+	}
 }
 
 
@@ -93,6 +100,10 @@
 	}
 	.our-company .testimonials {
 		width: 900px;
+	}
+	// blog
+	.blog-banner { 
+		height: 450px;
 	}
 }
 

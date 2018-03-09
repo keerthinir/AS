@@ -7262,20 +7262,6 @@ select {
   vertical-align: middle;
   margin-right: 10px; }
 
-.blog-banner {
-  background-position: center;
-  background-size: cover;
-  height: 450px; }
-
-.blog-left-panel .media-body, .blog-left-panel .list-of-needs {
-  color: #455860; }
-
-.recent-post-blog-image {
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 60px;
-  width: 60px; }
-
 .blog-right-panel .blog-heading {
   font-size: 20px;
   font-family: 'montserratmedium';
@@ -7290,6 +7276,60 @@ select {
     color: #181E21; }
 .blog-right-panel .category li:last-child {
   border-bottom: 0; }
+
+.blog-left-panel .media-body, .blog-left-panel .list-of-needs {
+  color: #455860; }
+
+.blog-banner {
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+  background-repeat: no-repeat; }
+
+.recent-post-blog-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60px;
+  width: 60px; }
+
+.blog-img-thumbnail {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: 20px;
+  height: 150px; }
+
+.old-new-post a {
+  color: #181E21; }
+  .old-new-post a span {
+    vertical-align: middle;
+    margin: 0 5px; }
+
+.blog-media .media {
+  margin-bottom: 30px; }
+  .blog-media .media .blog-post-person {
+    background-repeat: no-repeat;
+    height: 115px;
+    width: 130px; }
+  .blog-media .media .blog-heading span {
+    margin-right: 15px;
+    font-size: 20px;
+    font-family: 'montserratmedium'; }
+  .blog-media .media:last-child {
+    margin-bottom: 0; }
+
+.blog-recently-viewed .card {
+  border: 0;
+  box-shadow: 0 1px 2px rgba(69, 88, 96, 0.16);
+  border-radius: 0; }
+  .blog-recently-viewed .card .card-block {
+    padding: 10px; }
+  .blog-recently-viewed .card .card-img-top {
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .blog-recently-viewed .card .card-title {
+    font-size: 14px; }
 
 @media (min-width: 768px) {
   .custom-primary-header .navbar-nav .nav-link {
@@ -7317,7 +7357,13 @@ select {
 
   .find-dealer-banner {
     height: 278px;
-    background-size: 100%; } }
+    background-size: 100%; }
+
+  .blog-banner {
+    height: 300px; }
+
+  .blog-media .media:nth-child(even) {
+    margin-left: 70px; } }
 @media (min-width: 991px) {
   .custom-primary-header .navbar-nav .nav-item {
     padding: 12px 0; }
@@ -7357,7 +7403,10 @@ select {
     height: 600px; }
 
   .our-company .testimonials {
-    width: 900px; } }
+    width: 900px; }
+
+  .blog-banner {
+    height: 450px; } }
 @media (max-width: 768px) {
   .dealer-dropdown .dropdown-menu {
     border: 0;
