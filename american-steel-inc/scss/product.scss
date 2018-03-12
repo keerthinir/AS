@@ -4,6 +4,11 @@
 	margin: 20px 0;
 	.card{
 		border:0;
+		.card-img-top {
+			background-repeat: no-repeat;
+			background-size: contain;
+			height: 250px;
+		}
 		.card-title {
 			font-size: 20px;
 			color: $text-default;
