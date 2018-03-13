@@ -27,6 +27,8 @@ body {
 	min-height: 100%;
 	position: relative;
 	padding-bottom: 348px;
+	-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 
 .carousel {

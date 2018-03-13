@@ -6918,7 +6918,10 @@ select {
     .product .card .card-text {
       color: #707070; }
     .product .card .card-description {
-      color: #455860; }
+      color: #455860;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical; }
     .product .card .card-modify-build .btn-danger {
       padding: 4px 8px;
       font-size: 14px; }
@@ -7345,6 +7348,31 @@ select {
   .blog-recently-viewed .card .card-title {
     font-size: 14px; }
 
+.home-service .media .media-body .media-heading {
+  color: #455860;
+  font-size: 14px;
+  padding-left: 20px; }
+
+.home-options .split-left-container, .home-options .split-right-container {
+  display: table;
+  height: 342px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%; }
+  .home-options .split-left-container .info-details, .home-options .split-right-container .info-details {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; }
+
+#homeCarouselIndicators .carousel-inner {
+  height: 800px;
+  margin-bottom: 50px; }
+  #homeCarouselIndicators .carousel-inner .carousel-item > div {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%; }
+
 @media (min-width: 768px) {
   .custom-primary-header .navbar-nav .nav-link {
     padding: 5px 15px; }
@@ -7455,7 +7483,9 @@ body {
   color: #181E21;
   min-height: 100%;
   position: relative;
-  padding-bottom: 348px; }
+  padding-bottom: 348px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 .carousel .carousel-indicators {
   margin-bottom: -50px; }

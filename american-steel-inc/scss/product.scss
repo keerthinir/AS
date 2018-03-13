@@ -18,6 +18,9 @@
 		}
 		.card-description {
 			color: $nav-link;
+			display: -webkit-box;
+			-webkit-line-clamp: 3;
+			-webkit-box-orient: vertical;
 		}
 		.card-modify-build {
 			.btn-danger  {
