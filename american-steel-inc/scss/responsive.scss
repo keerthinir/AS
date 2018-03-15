@@ -43,6 +43,10 @@
 	.blog-media .media:nth-child(even)  {
 		margin-left: 70px;
 	}
+	 // home 
+	 .home-blog-event .blog {
+	 	border-right: 1px solid $border-color;
+	 }
 }
 
 

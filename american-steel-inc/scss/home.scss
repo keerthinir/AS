@@ -30,14 +30,25 @@
 }
 
 #homeCarouselIndicators {
-		.carousel-inner {
+	.carousel-inner {
+		height: 800px;
+		margin-bottom: 50px;
+		.carousel-item > div {
+			background-position: center;
+			background-repeat: no-repeat;
 			height: 800px;
-			margin-bottom: 50px;
-			.carousel-item > div {
-				background-position: center;
-				background-repeat: no-repeat;
-				height: 800px;
-				width: 100%;
-			}
+			width: 100%;
 		}
 	}
+}
+
+.home-blog-event{
+	.product .card .card-img-top{
+		height: 200px;
+		background-size: cover;
+	}
+	.blog-event-header {
+		color: $text-black;
+    font-family: 'montserratsemibold';
+	}
+}  

@@ -6714,6 +6714,10 @@ a:hover {
 .font-montserrat-medium {
   font-family: 'montserratmedium'; }
 
+.testimonial-writer {
+  font-size: 24px;
+  font-family: 'montserratmedium'; }
+
 .bg-grey {
   background-color: #F8F9F9; }
 
@@ -7228,9 +7232,6 @@ select {
 .our-company .media-description {
   color: #455860;
   font-size: 14px; }
-.our-company .testimonial-writer {
-  font-size: 24px;
-  font-family: 'montserratmedium'; }
 
 .customer-service .img-holder {
   width: 64px;
@@ -7373,6 +7374,13 @@ select {
     height: 800px;
     width: 100%; }
 
+.home-blog-event .product .card .card-img-top {
+  height: 200px;
+  background-size: cover; }
+.home-blog-event .blog-event-header {
+  color: #212121;
+  font-family: 'montserratsemibold'; }
+
 @media (min-width: 768px) {
   .custom-primary-header .navbar-nav .nav-link {
     padding: 5px 15px; }
@@ -7405,7 +7413,10 @@ select {
     height: 300px; }
 
   .blog-media .media:nth-child(even) {
-    margin-left: 70px; } }
+    margin-left: 70px; }
+
+  .home-blog-event .blog {
+    border-right: 1px solid rgba(69, 88, 96, 0.16); } }
 @media (min-width: 991px) {
   .custom-primary-header .navbar-nav .nav-item {
     padding: 12px 0; }
