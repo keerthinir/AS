@@ -6925,7 +6925,9 @@ select {
       color: #455860;
       display: -webkit-box;
       -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical; }
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      height: 70px; }
     .product .card .card-modify-build .btn-danger {
       padding: 4px 8px;
       font-size: 14px; }
@@ -7366,12 +7368,12 @@ select {
     text-align: center; }
 
 #homeCarouselIndicators .carousel-inner {
-  height: 800px;
+  height: 660px;
   margin-bottom: 50px; }
   #homeCarouselIndicators .carousel-inner .carousel-item > div {
     background-position: center;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 660px;
     width: 100%; }
 
 .home-blog-event .product .card .card-img-top {
@@ -7380,6 +7382,16 @@ select {
 .home-blog-event .blog-event-header {
   color: #212121;
   font-family: 'montserratsemibold'; }
+
+.category-item-list li {
+  width: 20%;
+  text-align: center; }
+  .category-item-list li a {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 83px;
+    padding: 0;
+    background-size: contain; }
 
 @media (min-width: 768px) {
   .custom-primary-header .navbar-nav .nav-link {

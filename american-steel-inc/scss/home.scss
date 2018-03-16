@@ -14,7 +14,6 @@
 }
 
 .home-options {
-
 	.split-left-container,.split-right-container {
 		display: table;
 		height: 342px;
@@ -31,12 +30,12 @@
 
 #homeCarouselIndicators {
 	.carousel-inner {
-		height: 800px;
+		height: 660px;
 		margin-bottom: 50px;
 		.carousel-item > div {
 			background-position: center;
 			background-repeat: no-repeat;
-			height: 800px;
+			height: 660px;
 			width: 100%;
 		}
 	}
@@ -49,6 +48,20 @@
 	}
 	.blog-event-header {
 		color: $text-black;
-    font-family: 'montserratsemibold';
+		font-family: 'montserratsemibold';
 	}
-}  
+} 
+
+.category-item-list {
+	li {
+		width: 20%;
+		text-align: center;
+		a {
+			background-repeat: no-repeat;
+			background-position: 50%;
+			height: 83px;
+			padding: 0;
+			background-size: contain;
+		}
+	}
+} 
