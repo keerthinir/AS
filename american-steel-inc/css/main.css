@@ -7383,15 +7383,32 @@ select {
   color: #212121;
   font-family: 'montserratsemibold'; }
 
-.category-item-list li {
-  width: 20%;
-  text-align: center; }
-  .category-item-list li a {
-    background-repeat: no-repeat;
-    background-position: 50%;
-    height: 83px;
-    padding: 0;
-    background-size: contain; }
+.home-product-category-list .category-item-list {
+  overflow-x: hidden; }
+  .home-product-category-list .category-item-list li {
+    width: 20%;
+    text-align: center; }
+    .home-product-category-list .category-item-list li a {
+      padding: 0;
+      border: 0; }
+      .home-product-category-list .category-item-list li a .category-title {
+        color: #455860;
+        margin-top: 15px; }
+      .home-product-category-list .category-item-list li a.active .category {
+        -ms-transform: scale(1.38, 1.12);
+        /* IE 9 */
+        -webkit-transform: scale(1.38, 1.12);
+        /* Safari */
+        transform: scale(1.38, 1.12);
+        /* Standard syntax */ }
+      .home-product-category-list .category-item-list li a.active .category-title {
+        color: #9D0303; }
+.home-product-category-list .tab-content > .active {
+  padding: 60px 0; }
+.home-product-category-list .sub-category {
+  width: 200px;
+  transform: scaleX(1.5);
+  margin: 0 60px; }
 
 @media (min-width: 768px) {
   .custom-primary-header .navbar-nav .nav-link {

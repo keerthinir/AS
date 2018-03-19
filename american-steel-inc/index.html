@@ -11,45 +11,48 @@
 </head>
 <body>
   <style>
-  .category {
-    background-image: url("images/banner/image_carport.png");
+   .category {
     height: 83px;
-    width: 100px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
   }
-
   .carport {
     background-image: url('images/banner/image_carport.png');
   }
-  .carport.active {
+  .category-item-list .nav-link.active  .carport {
     background-image: url('images/banner/image_hover_carport.png');
-    transform: scale(1.5);
   }
-    .garage {
+  .garage {
     background-image: url('images/banner/image_garage.png');
   }
-  .garage.active {
+  .category-item-list .nav-link.active .garage {
     background-image: url('images/banner/image_hover_garage.png');
   }
-    .agriculture {
+  .agriculture {
     background-image: url('images/banner/image_agricultural.png');
   }
-  .agriculture.active {
+  .category-item-list .nav-link.active .agriculture {
     background-image: url('images/banner/image_hover_agricultural.png');
   }
-    .workshop {
+  .workshop {
     background-image: url('images/banner/image_workshop.png');
   }
-  .workshop.active {
+  .category-item-list .nav-link.active .workshop {
     background-image: url('images/banner/image_hover_workshop.png');
   }
-    .custom_buildings {
+  .custom_buildings {
     background-image: url('images/banner/image_custom_buildings.png');
   }
-  .custom_buildings.active {
+  .category-item-list .nav-link.active .custom_buildings {
     background-image: url('images/banner/image_hover_custom_buildings.png');
+  }
+  .icon_arrow_small {
+    background-image: url('images/icons/icon_arrow_small.svg');
+    width: 5px;
+    height: 10px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
   }
 
 </style>
@@ -123,66 +126,79 @@
 </nav>
 
 <section class="hidden-sm-down">
-  <div class="py-30">
-<!--     <ul class="list-inline category-list mb-0 flex-row">
-      <li class="">
-        <div class="dropdown">
-          <div class="dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="category d-inline-block"></span>
-          </div>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </div>
-      </li> 
-      <li class="">
-        <div class="dropdown">
-          <div class="dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="category d-inline-block"></span>
-          </div>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </div>
-      </li>
-    </ul> -->
-
+  <div class="home-product-category-list">
     <!-- Nav tabs -->
-    <ul class="nav nav-tabs category-item-list" role="tablist">
+    <ul class="nav nav-tabs category-item-list py-30" role="tablist">
       <li class="nav-item">
-        <a class="nav-link carport" data-toggle="tab" href="#carport" role="tab"></a>
+        <a class="nav-link" data-toggle="tab" href="#carport" role="tab">
+          <div class="carport category"></div>
+          <div class="category-title text-capitalize">carport <i class="icon_arrow_small d-inline-block"></i> </div>
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link garage" data-toggle="tab" href="#garage" role="tab"></a>
+        <a class="nav-link" data-toggle="tab" href="#garage" role="tab">
+          <div class="garage category"></div>
+          <div class="category-title text-capitalize">garage <i class="icon_arrow_small d-inline-block"></i></div>
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link agriculture" data-toggle="tab" href="#agriculture" role="tab"></a>
+        <a class="nav-link" data-toggle="tab" href="#agriculture" role="tab">
+          <div class="agriculture category"></div>
+          <div class="category-title text-capitalize">agriculture <i class="icon_arrow_small d-inline-block"></i></div>
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link workshop" data-toggle="tab" href="#workshop" role="tab"></a>
+        <a class="nav-link" data-toggle="tab" href="#workshop" role="tab">
+          <div class="workshop category"></div>
+          <div class="category-title text-capitalize">workshop <i class="icon_arrow_small d-inline-block"></i></div>
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link custom_buildings" data-toggle="tab" href="#custom_buildings" role="tab"> </a>
+        <a class="nav-link" data-toggle="tab" href="#custom_buildings" role="tab">
+          <div class="custom_buildings category"></div>
+          <div class="category-title text-capitalize">custom_buildings <i class="icon_arrow_small d-inline-block"></i></div> 
+        </a>
       </li>
     </ul>
 
     <!-- Tab panes -->
     <div class="tab-content">
-      <div class="tab-pane" id="carport" role="tabpanel"></div>
-      <div class="tab-pane" id="garage" role="tabpanel"></div>
-      <div class="tab-pane" id="agriculture" role="tabpanel"></div>
-      <div class="tab-pane" id="workshop" role="tabpanel"></div>
-      <div class="tab-pane" id="custom_buildings" role="tabpanel"></div>
+      <div class="tab-pane" id="carport" role="tabpanel">
+        <div class="mx-auto text-center">
+          <div class="sub-category category d-inline-block" style="background-image: url('images/banner/image_hover_agricultural.png');"></div>
+          <div class="sub-category category d-inline-block" style="background-image: url('images/banner/image_hover_agricultural.png');"></div>
+        </div>
+      </div>
+      <div class="tab-pane" id="garage" role="tabpanel">
+        <div class="mx-auto text-center">
+          <div class="sub-category category d-inline-block" style="background-image: url('images/banner/image_hover_agricultural.png');"></div>
+          <div class="sub-category category d-inline-block" style="background-image: url('images/banner/image_hover_agricultural.png');"></div>
+        </div>
+      </div>
+      <div class="tab-pane" id="agriculture" role="tabpanel">
+        <div class="mx-auto text-center">
+          <div class="sub-category category d-inline-block" style="background-image: url('images/banner/image_hover_agricultural.png');"></div>
+          <div class="sub-category category d-inline-block" style="background-image: url('images/banner/image_hover_agricultural.png');"></div>
+        </div>
+      </div>
+      <div class="tab-pane" id="workshop" role="tabpanel">
+        <div class="mx-auto text-center">
+          <div class="sub-category category d-inline-block" style="background-image: url('images/banner/image_hover_agricultural.png');"></div>
+          <div class="sub-category category d-inline-block" style="background-image: url('images/banner/image_hover_agricultural.png');"></div>
+        </div>
+      </div>
+      <div class="tab-pane" id="custom_buildings" role="tabpanel">
+        <div class="mx-auto text-center">
+          <div class="sub-category category d-inline-block" style="background-image: url('images/banner/image_hover_agricultural.png');"></div>
+          <div class="sub-category category d-inline-block" style="background-image: url('images/banner/image_hover_agricultural.png');"></div>
+        </div>
+      </div>
     </div>
 
   </div>
 </section>
 
-<section>
+<section class="home-banner">
   <div id="homeCarouselIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#homeCarouselIndicators" data-slide-to="0" class="active"></li>
@@ -540,6 +556,44 @@
       <div class="modal-footer border-top-0">
         <button type="button" class="btn btn-grey " data-dismiss="modal">Not now</button>
         <button type="button" class="btn btn-danger px-4 ml-3">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- zip code Modal -->
+<div class="modal fade" id="zipCodeModal" tabindex="-1" role="dialog" aria-labelledby="zipCodeModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0 text-center">
+        <h5 class="modal-title text-danger mt-3 mx-auto font-montserrat-medium" id="zipCodeModalLabel">Enter Your Zip Code</h5>
+      </div>
+      <p class="text-center mb-5">Please enter the zip code your building will be installed in.</p>
+      <div class="modal-body">
+        <input type="text" class="form-control" id="zipcodeModal" name="zipcodeModal" placeholder="Enter zip code">
+      </div>
+      <div class="modal-footer border-top-0">
+        <button type="button" class="btn btn-grey " data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-danger px-4 ml-3">Done</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- subscribe Modal -->
+<div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0 text-center">
+        <h5 class="modal-title text-danger mt-3 font-montserrat-medium mx-auto" id="subscribeModalLabel">SUBSCRIBE</h5>
+      </div>
+      <p class="text-center mb-5">Subscribe to our newsletter to get the latest updates and special offers.</p>
+      <div class="modal-body">
+        <input type="email" class="form-control" id="subscribeEmail" name="subscribeEmail" placeholder="Email address">
+      </div>
+      <div class="modal-footer border-top-0">
+        <button type="button" class="btn btn-grey " data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-danger px-4 ml-3">Subscribe Now</button>
       </div>
     </div>
   </div>

@@ -51,17 +51,39 @@
 		font-family: 'montserratsemibold';
 	}
 } 
-
-.category-item-list {
-	li {
-		width: 20%;
-		text-align: center;
-		a {
-			background-repeat: no-repeat;
-			background-position: 50%;
-			height: 83px;
-			padding: 0;
-			background-size: contain;
+.home-product-category-list {
+	.category-item-list {
+		overflow-x: hidden;
+		li {
+			width: 20%;
+			text-align: center;
+			a {
+				padding: 0;
+				border: 0;
+				.category-title {
+					color: $nav-link;
+					margin-top: 15px;
+				}
+				&.active {
+					.category {
+						-ms-transform: scale(1.38, 1.12); /* IE 9 */
+				    -webkit-transform: scale(1.38, 1.12); /* Safari */
+				    transform: scale(1.38, 1.12); /* Standard syntax */
+				  }
+				  .category-title {
+				  	color: $text-danger;
+				  }
+				}
+			}
 		}
+	} 
+	.tab-content > .active {
+		padding: 60px 0;
 	}
-} 
+	.sub-category {
+		width: 200px;
+		transform: scaleX(1.5);
+		margin: 0 60px;
+	}
+}
+
