@@ -11,7 +11,7 @@
 </head>
 <body>
   <style>
-   .category {
+  .category {
     height: 83px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -569,8 +569,37 @@
         <h5 class="modal-title text-danger mt-3 mx-auto font-montserrat-medium" id="zipCodeModalLabel">Enter Your Zip Code</h5>
       </div>
       <p class="text-center mb-5">Please enter the zip code your building will be installed in.</p>
-      <div class="modal-body">
+      <div class="modal-body px-0">
         <input type="text" class="form-control" id="zipcodeModal" name="zipcodeModal" placeholder="Enter zip code">
+        <p class="text-danger my-3">We apologize, we currently don’t serve this zip code. Please contact the closest shop near you:</p>
+
+        <div class="office-warehouse-location">
+          <p class="location-address my-3">This is an approximate wind & snow load in your area. Contact your city or township for more accurate snow & wind requirements.</p>
+          
+          <div class="media-body">
+            <h5 class="mt-0 location-title">Pennsylvania Shop</h5>
+            <p class="mb-0 location-address">22 Ruddle St.</p>
+            <p class="mb-0 location-address">Wilkes-Barre, PA 18702</p>
+            <p class="mb-0 location-address">(570) 825-8260</p>
+          </div>
+
+          <div class="row py-30 pb-0">
+            <div class="col-md-4">
+              <img src="images/icons/icon_testimonials_red.svg" alt="" height="26px">
+              <p class="price location-address mt-2">GROUND SNOW LOAD</p>
+            </div>
+             <div class="col-md-4">
+              <img src="images/icons/icon_testimonials_red.svg" alt="" height="26px">
+              <p class="price location-address mt-2">ROOF SNOW (LIVE) LOAD</p>
+            </div>
+             <div class="col-md-4">
+              <img src="images/icons/icon_testimonials_red.svg" alt="" height="26px">
+              <p class="price location-address mt-2">WIND LOAD</p>
+            </div>
+          </div>
+        </div>
+        
+        
       </div>
       <div class="modal-footer border-top-0">
         <button type="button" class="btn btn-grey " data-dismiss="modal">Cancel</button>

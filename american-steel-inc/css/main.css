@@ -7410,6 +7410,9 @@ select {
   transform: scaleX(1.5);
   margin: 0 60px; }
 
+#zipCodeModal .modal-content, #subscribeModal .modal-content {
+  padding: 0 30px; }
+
 @media (min-width: 768px) {
   .custom-primary-header .navbar-nav .nav-link {
     padding: 5px 15px; }
