@@ -2,7 +2,7 @@
 
 
 @media (min-width: 768px) {
-	// navbar
+		// navbar
 	.custom-primary-header .navbar-nav .nav-link {
 		padding: 5px 15px;
 	} 
@@ -36,7 +36,7 @@
 		height: 278px;
 		background-size: 100%;
 	}
-	// blog
+		// blog
 	.blog-banner { 
 		height: 300px;
 	}
@@ -44,67 +44,72 @@
 		margin-left: 70px;
 	}
 	 // home 
-	 .home-blog-event .blog {
+	.home-blog-event .blog {
 	 	border-right: 1px solid $border-color;
-	 }
+	}
+	#zipCodeModal, #subscribeModal {
+	 	.modal-content {
+	 		padding:0 30px;
+	 	}
+	}
 }
 
 
-@media (min-width: 991px) {
-	.custom-primary-header {
-		.navbar-nav {
-			.nav-item {
-				padding: 12px 0;
-				.nav-link {
-					padding: 0 20px;
-					border-right: 1px solid $text-danger;
+	@media (min-width: 991px) {
+		.custom-primary-header {
+			.navbar-nav {
+				.nav-item {
+					padding: 12px 0;
+					.nav-link {
+						padding: 0 20px;
+						border-right: 1px solid $text-danger;
+					}
+					&:last-child .nav-link{
+						border-right:0;
+					}
 				}
-				&:last-child .nav-link{
-					border-right:0;
+			} 
+			.dealer-dropdown {
+				&:hover > .dropdown-menu {
+					display: block;
 				}
-			}
-		} 
-		.dealer-dropdown {
-			&:hover > .dropdown-menu {
-				display: block;
-			}
-			.dropdown-menu {
-				&:before {
-					content: "";
-					position: absolute;
-					top: -20px;
-					left: 10px;
-					border-bottom: 20px solid #fff;
-					border-left: 15px solid transparent;
-					border-right: 15px solid transparent;
-					z-index: 2;
-				}
-				&:after {
-					content: "";
-					position: absolute;
-					border-bottom: 19px solid rgb(200, 205, 207);
-					border-left: 15px solid transparent;
-					border-right: 15px solid transparent;
-					top: -20px;
-					left: 10px;
-				}
-				a:hover {
-					color: $text-danger;
-					background-color: transparent;
-					cursor: pointer;
+				.dropdown-menu {
+					&:before {
+						content: "";
+						position: absolute;
+						top: -20px;
+						left: 10px;
+						border-bottom: 20px solid #fff;
+						border-left: 15px solid transparent;
+						border-right: 15px solid transparent;
+						z-index: 2;
+					}
+					&:after {
+						content: "";
+						position: absolute;
+						border-bottom: 19px solid rgb(200, 205, 207);
+						border-left: 15px solid transparent;
+						border-right: 15px solid transparent;
+						top: -20px;
+						left: 10px;
+					}
+					a:hover {
+						color: $text-danger;
+						background-color: transparent;
+						cursor: pointer;
+					}
 				}
 			}
 		}
-	}
-	.navigation-menu {
-		margin-left: auto;
-	}
-	.find-dealer-banner {
-		height: 600px;
-	}
-	.our-company .testimonials {
-		width: 900px;
-	}
+		.navigation-menu {
+			margin-left: auto;
+		}
+		.find-dealer-banner {
+			height: 600px;
+		}
+		.our-company .testimonials {
+			width: 900px;
+		}
 	// blog
 	.blog-banner { 
 		height: 450px;

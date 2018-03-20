@@ -7411,7 +7411,7 @@ select {
   margin: 0 60px; }
 
 #zipCodeModal .modal-content, #subscribeModal .modal-content {
-  padding: 0 30px; }
+  padding: 0 10px; }
 
 @media (min-width: 768px) {
   .custom-primary-header .navbar-nav .nav-link {
@@ -7448,7 +7448,10 @@ select {
     margin-left: 70px; }
 
   .home-blog-event .blog {
-    border-right: 1px solid rgba(69, 88, 96, 0.16); } }
+    border-right: 1px solid rgba(69, 88, 96, 0.16); }
+
+  #zipCodeModal .modal-content, #subscribeModal .modal-content {
+    padding: 0 30px; } }
 @media (min-width: 991px) {
   .custom-primary-header .navbar-nav .nav-item {
     padding: 12px 0; }
