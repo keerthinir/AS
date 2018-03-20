@@ -7359,7 +7359,7 @@ select {
 .home-options .split-left-container, .home-options .split-right-container {
   display: table;
   height: 342px;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%; }
   .home-options .split-left-container .info-details, .home-options .split-right-container .info-details {
