@@ -15,6 +15,7 @@
 @import "our_company";
 @import "blog";
 @import "home";
+@import "careers";
 @import "responsive";
 
 html {
@@ -26,9 +27,9 @@ body {
 	color: $text-default;
 	min-height: 100%;
 	position: relative;
-	padding-bottom: 348px;
+	// padding-bottom: 348px;
 	-webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .carousel {

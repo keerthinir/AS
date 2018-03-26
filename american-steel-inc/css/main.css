@@ -6687,6 +6687,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 a:hover {
   text-decoration: none; }
 
+.form-group {
+  margin-bottom: 2rem; }
+
 .form-control {
   border: 0;
   border-bottom: 1px solid rgba(69, 88, 96, 0.16);
@@ -6754,6 +6757,26 @@ select {
     height: 10px;
     background-repeat: no-repeat;
     margin: 0 10px; }
+
+input[type=checkbox] {
+  -webkit-appearance: none;
+  background-image: url(../images/icons/icon_checkbox.svg);
+  width: 20px;
+  height: 20px;
+  outline: none;
+  vertical-align: sub; }
+  input[type=checkbox]:checked {
+    background-image: url(../images/icons/icon_checkbox_checked.svg); }
+
+input[type=radio] {
+  -webkit-appearance: none;
+  background-image: url(../images/icons/icon_radio.svg);
+  width: 20px;
+  height: 20px;
+  outline: none;
+  vertical-align: middle; }
+  input[type=radio]:checked {
+    background-image: url(../images/icons/icon_radio_checked.svg); }
 
 .py-60 {
   padding: 60px 0; }
@@ -6850,8 +6873,6 @@ select {
   display: inline-block; }
 
 .footer {
-  position: absolute;
-  bottom: 0;
   background-color: #9D0303;
   width: 100%;
   font-size: 14px;
@@ -7413,6 +7434,29 @@ select {
 #zipCodeModal .modal-content, #subscribeModal .modal-content {
   padding: 0 10px; }
 
+.application-form .nav-tabs {
+  overflow-x: auto; }
+  .application-form .nav-tabs .nav-link {
+    color: #666666;
+    padding: 10px 20px;
+    white-space: nowrap; }
+    .application-form .nav-tabs .nav-link.active {
+      color: #9D0303;
+      border-radius: 0;
+      border: 0;
+      border-bottom: 2px solid #9D0303; }
+    .application-form .nav-tabs .nav-link:hover {
+      border-top-color: transparent;
+      border-left-color: transparent;
+      border-right-color: transparent; }
+.application-form .radio-text {
+  line-height: 1.8; }
+.application-form .app-form .applicant-resume {
+  height: 60px;
+  width: 60px;
+  border: 1px solid #D6D6D6;
+  border-radius: 4px; }
+
 @media (min-width: 768px) {
   .custom-primary-header .navbar-nav .nav-link {
     padding: 5px 15px; }
@@ -7516,10 +7560,24 @@ select {
     font-size: 18px; }
 
   #accessoriesCarouselIndicators img {
-    width: 230px; } }
+    width: 230px; }
+
+  .application-form .nav-tabs .nav-link {
+    font-size: 14px; } }
 @media (min-width: 1200px) {
   .container {
-    width: 1200px; } }
+    width: 1200px; }
+
+  .app-form {
+    width: 760px;
+    margin: 0 auto; }
+
+  body {
+    padding-bottom: 348px; }
+
+  .footer {
+    position: absolute;
+    bottom: 0; } }
 html {
   position: relative;
   height: 100%; }
@@ -7529,7 +7587,6 @@ body {
   color: #181E21;
   min-height: 100%;
   position: relative;
-  padding-bottom: 348px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 

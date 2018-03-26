@@ -10,7 +10,9 @@
 a:hover {
 	text-decoration: none;
 }
-
+.form-group {
+    margin-bottom: 2rem;
+}
 .form-control {
 	border: 0;
 	border-bottom: 1px solid $border-color;
@@ -57,7 +59,7 @@ a:hover {
 .bg-danger {
 	background-color: $text-danger !important;
 }
-.fb{
+.fb {
   background-color: #306199;
 }
 
@@ -89,6 +91,29 @@ select {
 		background-repeat: no-repeat;
 		margin: 0 10px;
 	}
+}
+input[type=checkbox] {
+  -webkit-appearance: none;
+  background-image: url(../images/icons/icon_checkbox.svg);
+  width: 20px;
+  height: 20px;
+  outline: none;
+  vertical-align: sub;
+  &:checked {
+	  background-image: url(../images/icons/icon_checkbox_checked.svg);
+	}
+}
+
+input[type=radio] {
+  -webkit-appearance: none;
+  background-image: url(../images/icons/icon_radio.svg);
+  width: 20px;
+  height: 20px;
+  outline: none;
+  vertical-align: middle;
+  &:checked{
+ 		 background-image: url(../images/icons/icon_radio_checked.svg);
+  }
 }
 
 .py-60 {

@@ -3,7 +3,7 @@ $( document ).ready(function() {
 		$(this).tab('show');
 	});
 	$( ".home-banner,.navbar" ).mouseover(function() {
-		$('.category-item-list > li > a,.tab-content .tab-pane ').removeClass('active');
+		$('.category-item-list > li > a,.home-product-category-list > .tab-content .tab-pane ').removeClass('active');
 	});
 
 });
