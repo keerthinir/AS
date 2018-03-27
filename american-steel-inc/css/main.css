@@ -6778,6 +6778,13 @@ input[type=radio] {
   input[type=radio]:checked {
     background-image: url(../images/icons/icon_radio_checked.svg); }
 
+.form-control-date::after {
+  content: '';
+  -webkit-appearance: none;
+  background-image: url(../images/icons/icon_calender_black.svg);
+  width: 24px;
+  height: 24px; }
+
 .py-60 {
   padding: 60px 0; }
 
