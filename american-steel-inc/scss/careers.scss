@@ -1,5 +1,29 @@
 @import "variable";
-
+.careers {
+	.our-team {
+		.home-options .split-left-container, .home-options .split-right-container {
+			height: 387px;
+			background-position: center;
+		}
+		.info-details {
+			line-height: 40px;
+			font-size: 20px;
+			padding: 0 15px;
+		}
+	}
+	.customer-service .img-holder {
+		height: 60px;
+	}
+	.job-listing {
+		thead {
+			background-color: $nav-tab-link;
+			color: #fff;
+		}
+		.table th, .table td {
+			border:0;
+		}
+	}
+}
 .application-form {
 	.nav-tabs {
 		overflow-x: auto;
@@ -35,3 +59,4 @@
 		}
 	}
 }
+

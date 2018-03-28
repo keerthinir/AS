@@ -7441,6 +7441,21 @@ input[type=radio] {
 #zipCodeModal .modal-content, #subscribeModal .modal-content {
   padding: 0 10px; }
 
+.careers .our-team .home-options .split-left-container, .careers .our-team .home-options .split-right-container {
+  height: 387px;
+  background-position: center; }
+.careers .our-team .info-details {
+  line-height: 40px;
+  font-size: 20px;
+  padding: 0 15px; }
+.careers .customer-service .img-holder {
+  height: 60px; }
+.careers .job-listing thead {
+  background-color: #666666;
+  color: #fff; }
+.careers .job-listing .table th, .careers .job-listing .table td {
+  border: 0; }
+
 .application-form .nav-tabs {
   overflow-x: auto; }
   .application-form .nav-tabs .nav-link {
