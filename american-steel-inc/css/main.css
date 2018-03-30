@@ -7478,6 +7478,24 @@ input[type=radio] {
   width: 60px;
   border: 1px solid #D6D6D6;
   border-radius: 4px; }
+.application-form .last-grade .grade-rounded {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #455860;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'montserratmedium';
+  font-size: 24px;
+  color: #455860;
+  line-height: 29px;
+  margin-right: 40px; }
+.application-form .last-grade input[type="radio"] {
+  display: none; }
+.application-form .last-grade input[type="radio"]:checked + label.grade-rounded {
+  background-color: #9D0303;
+  border: 0;
+  color: #fff; }
 
 @media (min-width: 768px) {
   .custom-primary-header .navbar-nav .nav-link {
