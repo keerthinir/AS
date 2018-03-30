@@ -94,13 +94,13 @@ select {
 }
 input[type=checkbox] {
   -webkit-appearance: none;
-  background-image: url(../images/icons/icon_checkbox.svg);
-  width: 20px;
-  height: 20px;
+  background-image: url(../images/icons/icon_checkbox_normal.svg);
+  width: 18px;
+  height: 18px;
   outline: none;
   vertical-align: sub;
   &:checked {
-	  background-image: url(../images/icons/icon_checkbox_checked.svg);
+	  background-image: url(../images/icons/icon_checkbox_selected.svg);
 	}
 }
 

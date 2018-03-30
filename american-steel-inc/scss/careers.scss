@@ -27,24 +27,27 @@
 .application-form {
 	.nav-tabs {
 		overflow-x: auto;
-		.nav-link {
-			color: $nav-tab-link;
-			padding: 10px 20px;
-			white-space: nowrap;
-			&.active {
-				color: $text-danger;
-				border-radius: 0;
-				border: 0;
-				border-bottom: 2px solid $text-danger;
-			}
-			&:hover {
-				border-top-color: transparent;
-				border-left-color: transparent;
-				border-right-color: transparent;
+		.nav-item {
+			margin-bottom: 0;
+			.nav-link {
+				color: $nav-tab-link;
+				padding: 10px 20px;
+				white-space: nowrap;
+				&.active {
+					color: $text-danger;
+					border-radius: 0;
+					border: 0;
+					border-bottom: 2px solid $text-danger;
+				}
+				&:hover {
+					border-top-color: transparent;
+					border-left-color: transparent;
+					border-right-color: transparent;
+				}
 			}
 		}
-
 	}
+	
 	.radio-text {
 		line-height: 1.8;
 	}

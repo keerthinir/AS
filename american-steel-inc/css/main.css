@@ -6760,13 +6760,13 @@ select {
 
 input[type=checkbox] {
   -webkit-appearance: none;
-  background-image: url(../images/icons/icon_checkbox.svg);
-  width: 20px;
-  height: 20px;
+  background-image: url(../images/icons/icon_checkbox_normal.svg);
+  width: 18px;
+  height: 18px;
   outline: none;
   vertical-align: sub; }
   input[type=checkbox]:checked {
-    background-image: url(../images/icons/icon_checkbox_checked.svg); }
+    background-image: url(../images/icons/icon_checkbox_selected.svg); }
 
 input[type=radio] {
   -webkit-appearance: none;
@@ -7458,19 +7458,21 @@ input[type=radio] {
 
 .application-form .nav-tabs {
   overflow-x: auto; }
-  .application-form .nav-tabs .nav-link {
-    color: #666666;
-    padding: 10px 20px;
-    white-space: nowrap; }
-    .application-form .nav-tabs .nav-link.active {
-      color: #9D0303;
-      border-radius: 0;
-      border: 0;
-      border-bottom: 2px solid #9D0303; }
-    .application-form .nav-tabs .nav-link:hover {
-      border-top-color: transparent;
-      border-left-color: transparent;
-      border-right-color: transparent; }
+  .application-form .nav-tabs .nav-item {
+    margin-bottom: 0; }
+    .application-form .nav-tabs .nav-item .nav-link {
+      color: #666666;
+      padding: 10px 20px;
+      white-space: nowrap; }
+      .application-form .nav-tabs .nav-item .nav-link.active {
+        color: #9D0303;
+        border-radius: 0;
+        border: 0;
+        border-bottom: 2px solid #9D0303; }
+      .application-form .nav-tabs .nav-item .nav-link:hover {
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent; }
 .application-form .radio-text {
   line-height: 1.8; }
 .application-form .app-form .applicant-resume {
