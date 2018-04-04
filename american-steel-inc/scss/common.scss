@@ -123,6 +123,14 @@ input[type=radio] {
   height: 24px;
 }
 
+.bg-white {
+	background-color: #fff;
+}
+
+.border-right {
+	border-right: 1px solid $grey-border;	
+}
+
 .py-60 {
 	padding: 60px 0;
 }
