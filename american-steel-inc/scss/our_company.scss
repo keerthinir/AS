@@ -36,7 +36,7 @@
 	.card {
 		border: 0;
 		border-bottom: 1px solid $border-color;
-		border-radius: 0;
+		@include border-radius(0);
 		margin-bottom: 30px;
 		.icon-collapse {
 			background-image: url("../images/icons/icon_collapse_up.svg");

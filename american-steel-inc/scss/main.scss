@@ -40,7 +40,7 @@ body {
 			max-width: 8px;
 			height: 8px;
 			background-color: $nav-link;
-			border-radius: 50%;
+			@include border-radius(50%);
 			&.active {
 				max-width: 10px;
 				height: 10px;
