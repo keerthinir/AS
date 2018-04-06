@@ -57,11 +57,13 @@
 			}
 		}
 	}
+	.tab-pane .tab-content > .tab-pane {
+		padding-top: 50px;
+	}
 }
 
 .custom-nav-tabs {
-	justify-content: center;
-	margin-bottom: 50px;
+	// justify-content: center;
 	.nav-link {
 		padding: 14px 20px;
 		margin: 0 15px;
@@ -93,16 +95,16 @@
 	}
 	
 }
-.request-new-holder {
-	border:1px solid $text-danger;
-	.request-new {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		cursor: pointer;
-		img {
-			margin-bottom: 70px;
-		}
-	}
-}
+// .request-new-holder {
+// 	border:1px solid $text-danger;
+// 	.request-new {
+// 		position: absolute;
+// 		top: 50%;
+// 		left: 50%;
+// 		transform: translate(-50%, -50%);
+// 		cursor: pointer;
+// 		img {
+// 			margin-bottom: 70px;
+// 		}
+// 	}
+// }

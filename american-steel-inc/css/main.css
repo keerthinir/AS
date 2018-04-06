@@ -6856,6 +6856,58 @@ input[type=radio] {
 .text-danger {
   color: #9D0303 !important; }
 
+form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px; }
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: #eee;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.value-button:hover {
+  cursor: pointer; }
+
+form #decrease {
+  margin-right: -4px;
+  border-radius: 8px 0 0 8px; }
+
+form #increase {
+  margin-left: -4px;
+  border-radius: 0 8px 8px 0; }
+
+form #input-wrap {
+  margin: 0px;
+  padding: 0px; }
+
+input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 40px; }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
 #loginModal, #requestQuoteModal {
   color: #455860; }
 
@@ -7580,19 +7632,18 @@ input[type=radio] {
         width: 200px;
         background-repeat: no-repeat;
         background-size: contain; }
+  .dealer-loggedin .tab-pane .tab-content > .tab-pane {
+    padding-top: 50px; }
 
-.custom-nav-tabs {
-  justify-content: center;
-  margin-bottom: 50px; }
-  .custom-nav-tabs .nav-link {
-    padding: 14px 20px;
-    margin: 0 15px;
-    border: 0;
-    color: #455860; }
-    .custom-nav-tabs .nav-link.active {
-      color: #9D0303;
-      border-bottom: 2px solid #9D0303;
-      background-color: transparent; }
+.custom-nav-tabs .nav-link {
+  padding: 14px 20px;
+  margin: 0 15px;
+  border: 0;
+  color: #455860; }
+  .custom-nav-tabs .nav-link.active {
+    color: #9D0303;
+    border-bottom: 2px solid #9D0303;
+    background-color: transparent; }
 
 .document-holder {
   width: 250px;
@@ -7610,17 +7661,6 @@ input[type=radio] {
   .document-holder .btn-danger {
     font-size: 14px;
     padding: 8px 6px; }
-
-.request-new-holder {
-  border: 1px solid #9D0303; }
-  .request-new-holder .request-new {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    cursor: pointer; }
-    .request-new-holder .request-new img {
-      margin-bottom: 70px; }
 
 @media (min-width: 768px) {
   .custom-primary-header .navbar-nav .nav-link {
