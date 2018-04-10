@@ -6800,6 +6800,9 @@ input[type=radio] {
 .py-30 {
   padding: 30px 0; }
 
+.p-40 {
+  padding: 40px; }
+
 .custom-primary-header {
   box-shadow: 0 1px 0 rgba(69, 88, 96, 0.16);
   background-repeat: no-repeat;
@@ -7628,6 +7631,8 @@ input[type=radio] {
         width: 200px;
         background-repeat: no-repeat;
         background-size: contain; }
+      .dealer-loggedin .dealer-cover-pic .profile-details .nav-link {
+        color: #181E21; }
   .dealer-loggedin .tab-pane .tab-content > .tab-pane {
     padding-top: 50px; }
 
@@ -7657,6 +7662,13 @@ input[type=radio] {
   .document-holder .btn-danger {
     font-size: 14px;
     padding: 8px 6px; }
+
+.contracts-content {
+  font-size: 14px; }
+  .contracts-content li {
+    margin-bottom: 20px; }
+  .contracts-content .app-form small {
+    font-size: 14px; }
 
 @media (min-width: 768px) {
   .custom-primary-header .navbar-nav .nav-link {

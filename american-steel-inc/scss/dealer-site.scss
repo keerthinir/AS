@@ -55,6 +55,9 @@
 				background-repeat: no-repeat;
 				background-size: contain;
 			}
+			.nav-link {
+				color: $text-default;
+			}
 		}
 	}
 	.tab-pane .tab-content > .tab-pane {
@@ -94,6 +97,15 @@
 		padding: 8px 6px;
 	}
 	
+}
+.contracts-content {
+	font-size: 14px;
+	li {
+		margin-bottom: 20px;
+	}
+	.app-form small {
+		font-size: 14px;
+	}
 }
 // .request-new-holder {
 // 	border:1px solid $text-danger;
