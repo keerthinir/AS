@@ -60,8 +60,10 @@
 			}
 		}
 	}
-	.tab-pane .tab-content > .tab-pane {
-		padding-top: 50px;
+	.tab-content > .tab-pane {
+		.tab-content > .tab-pane {
+			padding: 50px 0;
+		}
 	}
 }
 
@@ -81,10 +83,13 @@
 }
 .document-holder {
 	width: 250px;
-	height: 396px;
+	// height: 396px;
 	margin: 0 auto;
 	padding: 20px;
 	@include border-radius(4px);
+	.doc-bg.demo-bg {
+		height: 150px;
+	}
 	.doc-bg {
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -107,6 +112,41 @@
 		font-size: 14px;
 	}
 }
+#orderHistory,
+#quote {
+	table {
+		font-size: 14px;
+		thead{
+			background-color: $dealer-site-grey;
+			th {
+				font-weight: normal;
+			}
+		}
+	}
+	
+	.order-img {
+		width: 80px;
+		height: 80px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+
+#myAccount {
+	.demo-product {
+		font-size: 14px;
+		.product-desc {
+			color: $nav-link;
+			display: -webkit-box;
+			-webkit-line-clamp: 3;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+			height: 60px;
+			margin: 20px 0;
+		}
+	}
+}
+
 // .request-new-holder {
 // 	border:1px solid $text-danger;
 // 	.request-new {

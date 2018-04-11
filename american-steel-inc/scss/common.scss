@@ -138,6 +138,10 @@ input[type=radio] {
 	border-radius: $radius;
 }
 
+input[type="date"] {
+  padding-bottom: 5px;
+}
+
 .py-60 {
 	padding: 60px 0;
 }
