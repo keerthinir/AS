@@ -1,0 +1,51 @@
+[debug] [2018-04-11T13:55:09.012Z] ----------------------------------------------------------------------
+[debug] [2018-04-11T13:55:09.015Z] Command:       /usr/local/Cellar/node/6.9.1/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-04-11T13:55:09.016Z] CLI Version:   3.17.4
+[debug] [2018-04-11T13:55:09.016Z] Platform:      darwin
+[debug] [2018-04-11T13:55:09.016Z] Node Version:  v6.9.1
+[debug] [2018-04-11T13:55:09.017Z] Time:          Wed Apr 11 2018 19:25:09 GMT+0530 (IST)
+[debug] [2018-04-11T13:55:09.017Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-11T13:55:09.087Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-11T13:55:09.087Z] > authorizing via signed-in user
+[debug] [2018-04-11T13:55:09.090Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-11T13:55:09.090Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/SjbaaegQFz0GljtLO2qUyrs9D5oTo4H-Kah3J7RBUjM',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Apr 11 2018 19:25:09 GMT+0530 (IST)
+[debug] [2018-04-11T13:55:09.808Z] <<< HTTP RESPONSE 400
+[debug] [2018-04-11T13:55:09.809Z] <<< HTTP RESPONSE BODY
+[info] 
+[warn] ⚠  Your CLI authentication needs to be updated to take advantage of new features.
+[warn] ⚠  Please run firebase login --reauth
+[info] 
+[debug] [2018-04-11T13:55:09.814Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-04-11T13:55:09.835Z] > authorizing via signed-in user
+[debug] [2018-04-11T13:55:09.836Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-11T13:55:09.836Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/SjbaaegQFz0GljtLO2qUyrs9D5oTo4H-Kah3J7RBUjM',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Apr 11 2018 19:25:09 GMT+0530 (IST)
+[debug] [2018-04-11T13:55:10.026Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-11T13:55:10.061Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/american-steel-inc  
+  
+ Wed Apr 11 2018 19:25:10 GMT+0530 (IST)
+[debug] [2018-04-11T13:55:11.759Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-11T13:55:11.761Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/american-steel-inc/tokens  
+  
+ Wed Apr 11 2018 19:25:11 GMT+0530 (IST)
+[debug] [2018-04-11T13:55:12.723Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'american-steel-inc'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing american-steel-inc directory for upload...
+[debug] [2018-04-11T13:55:19.063Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/american-steel-inc/uploads/-L9ozHw5UgwWDV08_Omu?fileCount=454&message=  
+  
+ Wed Apr 11 2018 19:25:19 GMT+0530 (IST)
